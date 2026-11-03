@@ -1,0 +1,5380 @@
+{
+ "149 条评测集": [
+  {
+   "qid": "q001",
+   "query": "办公室用的耳机有推荐吗",
+   "type": "口语化长尾",
+   "rel": [
+    "p117",
+    "p118"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.425,
+   "rel_sim": 0.315,
+   "r_base": null,
+   "r_deep": 15,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p157",
+    "p158",
+    "p197"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q002",
+   "query": "电煮锅 锅",
+   "type": "同义词",
+   "rel": [
+    "p103",
+    "p104"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.902,
+   "rel_sim": 0.198,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p102",
+    "p101",
+    "p104"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q003",
+   "query": "办公室用的充电宝有推荐吗",
+   "type": "口语化长尾",
+   "rel": [
+    "p129",
+    "p130"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.745,
+   "rel_sim": 0.147,
+   "r_base": null,
+   "r_deep": 17,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p132",
+    "p131",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q004",
+   "query": "想买个绘图的鼠标键盘",
+   "type": "口语化长尾",
+   "rel": [
+    "p161",
+    "p162"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.675,
+   "rel_sim": 0.675,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p161",
+    "p162",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q005",
+   "query": "有没有绘图的鼠标键盘",
+   "type": "口语化长尾",
+   "rel": [
+    "p161",
+    "p162"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.675,
+   "rel_sim": 0.675,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p161",
+    "p162",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q006",
+   "query": "充电宝 充电宝",
+   "type": "同义词",
+   "rel": [
+    "p129",
+    "p130"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.926,
+   "rel_sim": 0.114,
+   "r_base": null,
+   "r_deep": 11,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p132",
+    "p131",
+    "p139"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q007",
+   "query": "办公室的时候想可充电",
+   "type": "意图型",
+   "rel": [
+    "p141",
+    "p142"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.686,
+   "rel_sim": 0.686,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p141",
+    "p142",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q008",
+   "query": "办公室用的锅有推荐吗",
+   "type": "口语化长尾",
+   "rel": [
+    "p101",
+    "p102"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.593,
+   "rel_sim": 0.106,
+   "r_base": null,
+   "r_deep": 14,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p157",
+    "p158",
+    "p197"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q009",
+   "query": "办公室用的灯有推荐吗",
+   "type": "口语化长尾",
+   "rel": [
+    "p141",
+    "p142"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.586,
+   "rel_sim": 0.128,
+   "r_base": null,
+   "r_deep": 14,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p157",
+    "p158",
+    "p197"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q010",
+   "query": "办公室用的小家电有推荐吗",
+   "type": "口语化长尾",
+   "rel": [
+    "p175",
+    "p176"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.563,
+   "rel_sim": 0.104,
+   "r_base": null,
+   "r_deep": 21,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p157",
+    "p158",
+    "p197"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q011",
+   "query": "办公室用的杯子有推荐吗",
+   "type": "口语化长尾",
+   "rel": [
+    "p193",
+    "p194"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.644,
+   "rel_sim": 0.113,
+   "r_base": null,
+   "r_deep": 15,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p197",
+    "p198",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q012",
+   "query": "酷毙灯 灯",
+   "type": "同义词",
+   "rel": [
+    "p141",
+    "p142"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.552,
+   "rel_sim": 0.477,
+   "r_base": 8,
+   "r_deep": 8,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p147",
+    "p146",
+    "p148"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q013",
+   "query": "1.5L 锅",
+   "type": "参数型",
+   "rel": [
+    "p101",
+    "p102"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.749,
+   "rel_sim": 0.749,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p102",
+    "p101",
+    "p177"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q014",
+   "query": "1.2L 锅",
+   "type": "参数型",
+   "rel": [
+    "p103",
+    "p104"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.897,
+   "rel_sim": 0.897,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p104",
+    "p103",
+    "p102"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q015",
+   "query": "32cm 锅",
+   "type": "参数型",
+   "rel": [
+    "p105",
+    "p106"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.808,
+   "rel_sim": 0.808,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p105",
+    "p106",
+    "p112"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q016",
+   "query": "28cm 锅",
+   "type": "参数型",
+   "rel": [
+    "p107",
+    "p108"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.891,
+   "rel_sim": 0.891,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p107",
+    "p108",
+    "p112"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q017",
+   "query": "12cm 锅",
+   "type": "参数型",
+   "rel": [
+    "p111",
+    "p112"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.814,
+   "rel_sim": 0.814,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p112",
+    "p111",
+    "p105"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q018",
+   "query": "20000mAh 充电宝",
+   "type": "参数型",
+   "rel": [
+    "p129",
+    "p130"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.755,
+   "rel_sim": 0.713,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p132",
+    "p131",
+    "p129"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q019",
+   "query": "10000mAh 充电宝",
+   "type": "参数型",
+   "rel": [
+    "p131",
+    "p132"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.88,
+   "rel_sim": 0.88,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p132",
+    "p131",
+    "p129"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q020",
+   "query": "65W 充电宝",
+   "type": "参数型",
+   "rel": [
+    "p133",
+    "p134"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.732,
+   "rel_sim": 0.732,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p133",
+    "p134",
+    "p132"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q021",
+   "query": "15W 充电宝",
+   "type": "参数型",
+   "rel": [
+    "p135",
+    "p136"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.741,
+   "rel_sim": 0.741,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p135",
+    "p136",
+    "p132"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q022",
+   "query": "100W 充电宝",
+   "type": "参数型",
+   "rel": [
+    "p137",
+    "p138"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.697,
+   "rel_sim": 0.697,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p138",
+    "p132",
+    "p137"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q023",
+   "query": "87键 鼠标键盘",
+   "type": "参数型",
+   "rel": [
+    "p155",
+    "p156"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.86,
+   "rel_sim": 0.86,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p156",
+    "p155",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q024",
+   "query": "15.6寸 电脑配件",
+   "type": "参数型",
+   "rel": [
+    "p167",
+    "p168"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.864,
+   "rel_sim": 0.864,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p167",
+    "p168",
+    "p173"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q025",
+   "query": "1.5L 小家电",
+   "type": "参数型",
+   "rel": [
+    "p177",
+    "p178"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.708,
+   "rel_sim": 0.671,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p102",
+    "p101",
+    "p177"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q026",
+   "query": "4L 小家电",
+   "type": "参数型",
+   "rel": [
+    "p183",
+    "p184"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.849,
+   "rel_sim": 0.849,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p183",
+    "p184",
+    "p104"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q027",
+   "query": "想买个不粘内胆的锅",
+   "type": "口语化长尾",
+   "rel": [
+    "p101",
+    "p102"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.876,
+   "rel_sim": 0.876,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p102",
+    "p101",
+    "p107"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q028",
+   "query": "想买个多功能的锅",
+   "type": "口语化长尾",
+   "rel": [
+    "p103",
+    "p104"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.698,
+   "rel_sim": 0.698,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p104",
+    "p103",
+    "p182"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q029",
+   "query": "想买个无涂层铁锅的锅",
+   "type": "口语化长尾",
+   "rel": [
+    "p105",
+    "p106"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.923,
+   "rel_sim": 0.923,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p105",
+    "p106",
+    "p114"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q030",
+   "query": "想买个麦饭石的锅",
+   "type": "口语化长尾",
+   "rel": [
+    "p107",
+    "p108"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.914,
+   "rel_sim": 0.914,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p107",
+    "p108",
+    "p115"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q031",
+   "query": "想买个双耳的锅",
+   "type": "口语化长尾",
+   "rel": [
+    "p109",
+    "p110"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.876,
+   "rel_sim": 0.876,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p110",
+    "p109",
+    "p114"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q032",
+   "query": "有没有双耳的锅",
+   "type": "口语化长尾",
+   "rel": [
+    "p109",
+    "p110"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.876,
+   "rel_sim": 0.876,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p110",
+    "p109",
+    "p114"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q033",
+   "query": "想买个辅食锅的锅",
+   "type": "口语化长尾",
+   "rel": [
+    "p111",
+    "p112"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.911,
+   "rel_sim": 0.911,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p112",
+    "p111",
+    "p115"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q034",
+   "query": "想买个双层的锅",
+   "type": "口语化长尾",
+   "rel": [
+    "p113",
+    "p114"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.644,
+   "rel_sim": 0.644,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p114",
+    "p113",
+    "p200"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q035",
+   "query": "有没有双层的锅",
+   "type": "口语化长尾",
+   "rel": [
+    "p113",
+    "p114"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.644,
+   "rel_sim": 0.644,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p114",
+    "p113",
+    "p200"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q036",
+   "query": "想买个陶瓷的锅",
+   "type": "口语化长尾",
+   "rel": [
+    "p115",
+    "p116"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.776,
+   "rel_sim": 0.776,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p115",
+    "p116",
+    "p197"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q037",
+   "query": "有没有陶瓷的锅",
+   "type": "口语化长尾",
+   "rel": [
+    "p115",
+    "p116"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.776,
+   "rel_sim": 0.776,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p115",
+    "p116",
+    "p197"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q038",
+   "query": "想买个ANC的耳机",
+   "type": "口语化长尾",
+   "rel": [
+    "p117",
+    "p118"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.876,
+   "rel_sim": 0.876,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p118",
+    "p117",
+    "p128"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q039",
+   "query": "想买个半入耳的耳机",
+   "type": "口语化长尾",
+   "rel": [
+    "p119",
+    "p120"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.917,
+   "rel_sim": 0.917,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p119",
+    "p120",
+    "p118"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q040",
+   "query": "想买个有线的耳机",
+   "type": "口语化长尾",
+   "rel": [
+    "p121",
+    "p122"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.841,
+   "rel_sim": 0.442,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p125",
+    "p126",
+    "p122"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q041",
+   "query": "有没有有线的耳机",
+   "type": "口语化长尾",
+   "rel": [
+    "p121",
+    "p122"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.841,
+   "rel_sim": 0.442,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p125",
+    "p126",
+    "p122"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q042",
+   "query": "想买个运动的耳机",
+   "type": "口语化长尾",
+   "rel": [
+    "p123",
+    "p124"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.773,
+   "rel_sim": 0.773,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p124",
+    "p123",
+    "p206"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q043",
+   "query": "有没有运动的耳机",
+   "type": "口语化长尾",
+   "rel": [
+    "p123",
+    "p124"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.773,
+   "rel_sim": 0.773,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p124",
+    "p123",
+    "p206"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q044",
+   "query": "想买个超小的耳机",
+   "type": "口语化长尾",
+   "rel": [
+    "p127",
+    "p128"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.884,
+   "rel_sim": 0.884,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p128",
+    "p127",
+    "p119"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q045",
+   "query": "有没有超小的耳机",
+   "type": "口语化长尾",
+   "rel": [
+    "p127",
+    "p128"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.884,
+   "rel_sim": 0.884,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p128",
+    "p127",
+    "p119"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q046",
+   "query": "想买个双向快充的充电宝",
+   "type": "口语化长尾",
+   "rel": [
+    "p129",
+    "p130"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.748,
+   "rel_sim": 0.748,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p129",
+    "p130",
+    "p139"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q047",
+   "query": "想买个小巧的充电宝",
+   "type": "口语化长尾",
+   "rel": [
+    "p131",
+    "p132"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.915,
+   "rel_sim": 0.915,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p132",
+    "p131",
+    "p139"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q048",
+   "query": "想买个多口的充电宝",
+   "type": "口语化长尾",
+   "rel": [
+    "p133",
+    "p134"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.707,
+   "rel_sim": 0.538,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": 1,
+   "added": [
+    "氮化镓充电器",
+    "多口",
+    "充电器"
+   ],
+   "rewritten": "想买个多口的充电宝 氮化镓充电器 多口 充电器",
+   "top3": [
+    "p132",
+    "p131",
+    "p133"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q049",
+   "query": "小锅 锅",
+   "type": "同义词",
+   "rel": [
+    "p101",
+    "p102"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.434,
+   "rel_sim": 0.349,
+   "r_base": 10,
+   "r_deep": 10,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p104",
+    "p103",
+    "p115"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q050",
+   "query": "宿舍锅 锅",
+   "type": "同义词",
+   "rel": [
+    "p103",
+    "p104"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.741,
+   "rel_sim": 0.741,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p104",
+    "p103",
+    "p141"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q051",
+   "query": "ANC 耳机",
+   "type": "同义词",
+   "rel": [
+    "p117",
+    "p118"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.876,
+   "rel_sim": 0.876,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p118",
+    "p117",
+    "p128"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q052",
+   "query": "降噪 耳机",
+   "type": "同义词",
+   "rel": [
+    "p117",
+    "p118"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.898,
+   "rel_sim": 0.498,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p119",
+    "p120",
+    "p118"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q053",
+   "query": "移动电源 充电宝",
+   "type": "同义词",
+   "rel": [
+    "p131",
+    "p132"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.933,
+   "rel_sim": 0.378,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p129",
+    "p130",
+    "p132"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q054",
+   "query": "PD 充电宝",
+   "type": "同义词",
+   "rel": [
+    "p133",
+    "p134"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.768,
+   "rel_sim": 0.436,
+   "r_base": 5,
+   "r_deep": 5,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p129",
+    "p130",
+    "p132"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q055",
+   "query": "快充 充电宝",
+   "type": "同义词",
+   "rel": [
+    "p133",
+    "p134"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.705,
+   "rel_sim": 0.573,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p139",
+    "p140",
+    "p133"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q056",
+   "query": "宿舍锅 灯",
+   "type": "同义词",
+   "rel": [
+    "p141",
+    "p142"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.674,
+   "rel_sim": 0.665,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p104",
+    "p103",
+    "p141"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q057",
+   "query": "2.4G 鼠标键盘",
+   "type": "同义词",
+   "rel": [
+    "p151",
+    "p152"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.899,
+   "rel_sim": 0.899,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p151",
+    "p152",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q058",
+   "query": "无线鼠标 鼠标键盘",
+   "type": "同义词",
+   "rel": [
+    "p151",
+    "p152"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.826,
+   "rel_sim": 0.826,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p151",
+    "p152",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q059",
+   "query": "支架 电脑配件",
+   "type": "同义词",
+   "rel": [
+    "p163",
+    "p164"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.715,
+   "rel_sim": 0.658,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p166",
+    "p165",
+    "p164"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q060",
+   "query": "增高架 电脑配件",
+   "type": "同义词",
+   "rel": [
+    "p163",
+    "p164"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.849,
+   "rel_sim": 0.849,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p164",
+    "p163",
+    "p166"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q061",
+   "query": "增高架 数码产品",
+   "type": "同义词",
+   "rel": [
+    "p203",
+    "p204"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.563,
+   "rel_sim": 0.517,
+   "r_base": 5,
+   "r_deep": 5,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p164",
+    "p163",
+    "p209"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q062",
+   "query": "苏泊尔 电煮锅",
+   "type": "常规",
+   "rel": [
+    "p101"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.791,
+   "rel_sim": 0.791,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p101",
+    "p178",
+    "p111"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q063",
+   "query": "电煮锅 1.5L 不粘内胆",
+   "type": "常规",
+   "rel": [
+    "p101",
+    "p102"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.913,
+   "rel_sim": 0.913,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p102",
+    "p101",
+    "p177"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q064",
+   "query": "美的 电煮锅",
+   "type": "常规",
+   "rel": [
+    "p102"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.836,
+   "rel_sim": 0.836,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p102",
+    "p101",
+    "p103"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q065",
+   "query": "美的 宿舍小电锅",
+   "type": "常规",
+   "rel": [
+    "p103"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.893,
+   "rel_sim": 0.893,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p103",
+    "p104",
+    "p113"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q066",
+   "query": "九阳 宿舍小电锅",
+   "type": "常规",
+   "rel": [
+    "p104"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.889,
+   "rel_sim": 0.889,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p104",
+    "p103",
+    "p180"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q067",
+   "query": "九阳 炒锅",
+   "type": "常规",
+   "rel": [
+    "p105"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.765,
+   "rel_sim": 0.765,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p105",
+    "p115",
+    "p114"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q068",
+   "query": "炒锅 32cm 无涂层铁锅",
+   "type": "常规",
+   "rel": [
+    "p105",
+    "p106"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.926,
+   "rel_sim": 0.926,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p105",
+    "p106",
+    "p112"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q069",
+   "query": "炊大皇 炒锅",
+   "type": "常规",
+   "rel": [
+    "p106"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.766,
+   "rel_sim": 0.766,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p106",
+    "p116",
+    "p107"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q070",
+   "query": "炊大皇 平底锅",
+   "type": "常规",
+   "rel": [
+    "p107"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.824,
+   "rel_sim": 0.824,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p107",
+    "p116",
+    "p106"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q071",
+   "query": "平底锅 麦饭石 不粘 28cm",
+   "type": "常规",
+   "rel": [
+    "p107",
+    "p108"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.914,
+   "rel_sim": 0.914,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p107",
+    "p108",
+    "p102"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q072",
+   "query": "爱仕达 平底锅",
+   "type": "常规",
+   "rel": [
+    "p108"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.817,
+   "rel_sim": 0.817,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p108",
+    "p109",
+    "p107"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q073",
+   "query": "爱仕达 汤锅",
+   "type": "常规",
+   "rel": [
+    "p109"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.75,
+   "rel_sim": 0.75,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p109",
+    "p108",
+    "p110"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q074",
+   "query": "汤锅 304不锈钢 双耳",
+   "type": "常规",
+   "rel": [
+    "p109",
+    "p110"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.904,
+   "rel_sim": 0.904,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p110",
+    "p109",
+    "p193"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q075",
+   "query": "苏泊尔 汤锅",
+   "type": "常规",
+   "rel": [
+    "p110"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.729,
+   "rel_sim": 0.729,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p110",
+    "p111",
+    "p101"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q076",
+   "query": "苏泊尔 奶锅",
+   "type": "常规",
+   "rel": [
+    "p111"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.778,
+   "rel_sim": 0.778,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p111",
+    "p101",
+    "p110"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q077",
+   "query": "奶锅 12cm 辅食锅",
+   "type": "常规",
+   "rel": [
+    "p111",
+    "p112"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.906,
+   "rel_sim": 0.906,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p112",
+    "p111",
+    "p105"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q078",
+   "query": "美的 奶锅",
+   "type": "常规",
+   "rel": [
+    "p112"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.817,
+   "rel_sim": 0.817,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p112",
+    "p113",
+    "p102"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q079",
+   "query": "美的 蒸锅",
+   "type": "常规",
+   "rel": [
+    "p113"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.828,
+   "rel_sim": 0.828,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p113",
+    "p114",
+    "p112"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q080",
+   "query": "蒸锅 双层 大容量",
+   "type": "常规",
+   "rel": [
+    "p113",
+    "p114"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.896,
+   "rel_sim": 0.896,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p114",
+    "p113",
+    "p187"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q081",
+   "query": "九阳 蒸锅",
+   "type": "常规",
+   "rel": [
+    "p114"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.814,
+   "rel_sim": 0.814,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p114",
+    "p113",
+    "p115"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q082",
+   "query": "九阳 砂锅",
+   "type": "常规",
+   "rel": [
+    "p115"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.827,
+   "rel_sim": 0.827,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p115",
+    "p116",
+    "p114"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q083",
+   "query": "砂锅 陶瓷 炖汤",
+   "type": "常规",
+   "rel": [
+    "p115",
+    "p116"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.907,
+   "rel_sim": 0.907,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p115",
+    "p116",
+    "p197"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q084",
+   "query": "炊大皇 砂锅",
+   "type": "常规",
+   "rel": [
+    "p116"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.831,
+   "rel_sim": 0.831,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p116",
+    "p106",
+    "p107"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q085",
+   "query": "漫步者 主动降噪蓝牙耳机",
+   "type": "常规",
+   "rel": [
+    "p117"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.959,
+   "rel_sim": 0.959,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p117",
+    "p118",
+    "p127"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q086",
+   "query": "主动降噪蓝牙耳机 ANC 无线入耳式",
+   "type": "常规",
+   "rel": [
+    "p117",
+    "p118"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.948,
+   "rel_sim": 0.948,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p118",
+    "p117",
+    "p119"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q087",
+   "query": "我想不粘内胆",
+   "type": "意图型",
+   "rel": [
+    "p101",
+    "p102"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.856,
+   "rel_sim": 0.856,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p102",
+    "p101",
+    "p167"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q088",
+   "query": "办公室的时候想不粘内胆",
+   "type": "意图型",
+   "rel": [
+    "p101",
+    "p102"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.812,
+   "rel_sim": 0.812,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p102",
+    "p101",
+    "p167"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q089",
+   "query": "我想多功能",
+   "type": "意图型",
+   "rel": [
+    "p103",
+    "p104"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.699,
+   "rel_sim": 0.663,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p182",
+    "p181",
+    "p104"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q090",
+   "query": "办公室的时候想多功能",
+   "type": "意图型",
+   "rel": [
+    "p103",
+    "p104"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.633,
+   "rel_sim": 0.601,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p182",
+    "p181",
+    "p104"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q091",
+   "query": "我想无涂层铁锅",
+   "type": "意图型",
+   "rel": [
+    "p105",
+    "p106"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.914,
+   "rel_sim": 0.914,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p105",
+    "p106",
+    "p114"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q092",
+   "query": "办公室的时候想无涂层铁锅",
+   "type": "意图型",
+   "rel": [
+    "p105",
+    "p106"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.882,
+   "rel_sim": 0.882,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p105",
+    "p106",
+    "p151"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q093",
+   "query": "无涂层铁锅，有推荐吗",
+   "type": "意图型",
+   "rel": [
+    "p105",
+    "p106"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.914,
+   "rel_sim": 0.914,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p105",
+    "p106",
+    "p114"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q094",
+   "query": "我想麦饭石",
+   "type": "意图型",
+   "rel": [
+    "p107",
+    "p108"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.899,
+   "rel_sim": 0.899,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p107",
+    "p108",
+    "p166"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q095",
+   "query": "办公室的时候想不粘",
+   "type": "意图型",
+   "rel": [
+    "p107",
+    "p108"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.553,
+   "rel_sim": 0.553,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p107",
+    "p108",
+    "p102"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q096",
+   "query": "麦饭石，有推荐吗",
+   "type": "意图型",
+   "rel": [
+    "p107",
+    "p108"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.899,
+   "rel_sim": 0.899,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p107",
+    "p108",
+    "p166"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q097",
+   "query": "我想双耳",
+   "type": "意图型",
+   "rel": [
+    "p109",
+    "p110"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.807,
+   "rel_sim": 0.807,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p110",
+    "p109",
+    "p114"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q098",
+   "query": "办公室的时候想双耳",
+   "type": "意图型",
+   "rel": [
+    "p109",
+    "p110"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.572,
+   "rel_sim": 0.572,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p110",
+    "p109",
+    "p158"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q099",
+   "query": "双耳，有推荐吗",
+   "type": "意图型",
+   "rel": [
+    "p109",
+    "p110"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.807,
+   "rel_sim": 0.807,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p110",
+    "p109",
+    "p114"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q100",
+   "query": "我想辅食锅",
+   "type": "意图型",
+   "rel": [
+    "p111",
+    "p112"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.901,
+   "rel_sim": 0.901,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p112",
+    "p111",
+    "p115"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q101",
+   "query": "办公室的时候想辅食锅",
+   "type": "意图型",
+   "rel": [
+    "p111",
+    "p112"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.826,
+   "rel_sim": 0.826,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p112",
+    "p111",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q102",
+   "query": "辅食锅，有推荐吗",
+   "type": "意图型",
+   "rel": [
+    "p111",
+    "p112"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.901,
+   "rel_sim": 0.901,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p112",
+    "p111",
+    "p115"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q103",
+   "query": "我想双层",
+   "type": "意图型",
+   "rel": [
+    "p113",
+    "p114"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.591,
+   "rel_sim": 0.591,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p114",
+    "p113",
+    "p200"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q104",
+   "query": "办公室的时候想大容量",
+   "type": "意图型",
+   "rel": [
+    "p113",
+    "p114"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.6,
+   "rel_sim": 0.6,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p114",
+    "p113",
+    "p187"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q105",
+   "query": "双层，有推荐吗",
+   "type": "意图型",
+   "rel": [
+    "p113",
+    "p114"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.591,
+   "rel_sim": 0.591,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p114",
+    "p113",
+    "p200"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q106",
+   "query": "我想陶瓷",
+   "type": "意图型",
+   "rel": [
+    "p115",
+    "p116"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.736,
+   "rel_sim": 0.736,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p115",
+    "p116",
+    "p197"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q107",
+   "query": "办公室的时候想炖汤",
+   "type": "意图型",
+   "rel": [
+    "p115",
+    "p116"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.764,
+   "rel_sim": 0.764,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p115",
+    "p116",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q108",
+   "query": "陶瓷，有推荐吗",
+   "type": "意图型",
+   "rel": [
+    "p115",
+    "p116"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.736,
+   "rel_sim": 0.736,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p115",
+    "p116",
+    "p197"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q109",
+   "query": "我想ANC",
+   "type": "意图型",
+   "rel": [
+    "p117",
+    "p118"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.833,
+   "rel_sim": 0.833,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p118",
+    "p117",
+    "p196"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q110",
+   "query": "办公室的时候想无线入耳式",
+   "type": "意图型",
+   "rel": [
+    "p117",
+    "p118"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.862,
+   "rel_sim": 0.862,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p118",
+    "p117",
+    "p119"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q111",
+   "query": "我想半入耳",
+   "type": "意图型",
+   "rel": [
+    "p119",
+    "p120"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.947,
+   "rel_sim": 0.947,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p119",
+    "p120",
+    "p118"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q112",
+   "query": "办公室的时候想通话降噪",
+   "type": "意图型",
+   "rel": [
+    "p119",
+    "p120"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.885,
+   "rel_sim": 0.885,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": 1,
+   "added": [
+    "通话降噪",
+    "蓝牙耳机"
+   ],
+   "rewritten": "办公室的时候想通话降噪 通话降噪 蓝牙耳机",
+   "top3": [
+    "p119",
+    "p120",
+    "p118"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q113",
+   "query": "半入耳，有推荐吗",
+   "type": "意图型",
+   "rel": [
+    "p119",
+    "p120"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.947,
+   "rel_sim": 0.947,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p119",
+    "p120",
+    "p118"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q114",
+   "query": "我想有线",
+   "type": "意图型",
+   "rel": [
+    "p121",
+    "p122"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.599,
+   "rel_sim": 0.554,
+   "r_base": 4,
+   "r_deep": 4,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p125",
+    "p126",
+    "p153"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "q115",
+   "query": "办公室的时候想监听",
+   "type": "意图型",
+   "rel": [
+    "p121",
+    "p122"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.702,
+   "rel_sim": 0.702,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p122",
+    "p121",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h01",
+   "query": "晚上躺床上听歌不想吵到旁边的人",
+   "type": "难例·纯意图",
+   "rel": [
+    "p127",
+    "p128"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.0,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": 27,
+   "r_rw": 1,
+   "added": [
+    "睡眠耳机",
+    "侧睡",
+    "降噪"
+   ],
+   "rewritten": "晚上躺床上听歌不想吵到旁边的人 睡眠耳机 侧睡 降噪",
+   "top3": [
+    "p101",
+    "p102",
+    "p103"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h02",
+   "query": "屋里光线太暗看书眼睛累",
+   "type": "难例·纯意图",
+   "rel": [
+    "p141",
+    "p142",
+    "p143",
+    "p144"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.437,
+   "rel_sim": 0.437,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": 1,
+   "added": [
+    "护眼台灯",
+    "台灯"
+   ],
+   "rewritten": "屋里光线太暗看书眼睛累 护眼台灯 台灯",
+   "top3": [
+    "p141",
+    "p142",
+    "p200"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h03",
+   "query": "笔记本烫手想架起来吹吹",
+   "type": "难例·纯意图",
+   "rel": [
+    "p163",
+    "p164",
+    "p165",
+    "p166"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.668,
+   "rel_sim": 0.668,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": 1,
+   "added": [
+    "支架",
+    "散热",
+    "增高架"
+   ],
+   "rewritten": "笔记本烫手想架起来吹吹 支架 散热 增高架",
+   "top3": [
+    "p166",
+    "p165",
+    "p164"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h04",
+   "query": "地铁上打电话对方总说听不清",
+   "type": "难例·纯意图",
+   "rel": [
+    "p119",
+    "p120"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.616,
+   "rel_sim": 0.581,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": 1,
+   "added": [
+    "通话降噪",
+    "蓝牙耳机"
+   ],
+   "rewritten": "地铁上打电话对方总说听不清 通话降噪 蓝牙耳机",
+   "top3": [
+    "p105",
+    "p106",
+    "p119"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h05",
+   "query": "跑步出汗也不怕掉",
+   "type": "难例·纯意图",
+   "rel": [
+    "p123",
+    "p124"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.573,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": 20,
+   "r_rw": 1,
+   "added": [
+    "骨传导",
+    "运动",
+    "防水"
+   ],
+   "rewritten": "跑步出汗也不怕掉 骨传导 运动 防水",
+   "top3": [
+    "p127",
+    "p126",
+    "p117"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h06",
+   "query": "手机总是没电又不想带大砖头",
+   "type": "难例·纯意图",
+   "rel": [
+    "p131",
+    "p132"
+   ],
+   "cls": "🟠 B·词表改写可救",
+   "top1_sim": 0.76,
+   "rel_sim": 0.055,
+   "r_base": null,
+   "r_deep": null,
+   "r_rw": 1,
+   "added": [
+    "充电宝",
+    "小巧",
+    "快充"
+   ],
+   "rewritten": "手机总是没电又不想带大砖头 充电宝 小巧 快充",
+   "top3": [
+    "p203",
+    "p204",
+    "p161"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h07",
+   "query": "出差住酒店插座不够用",
+   "type": "难例·纯意图",
+   "rel": [
+    "p133",
+    "p134"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.912,
+   "rel_sim": 0.0,
+   "r_base": 8,
+   "r_deep": 8,
+   "r_rw": 1,
+   "added": [
+    "氮化镓充电器",
+    "多口",
+    "充电器"
+   ],
+   "rewritten": "出差住酒店插座不够用 氮化镓充电器 多口 充电器",
+   "top3": [
+    "p172",
+    "p171",
+    "p165"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h08",
+   "query": "不用插线放上去就能来电",
+   "type": "难例·纯意图",
+   "rel": [
+    "p135",
+    "p136"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.394,
+   "rel_sim": 0.394,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": 1,
+   "added": [
+    "无线充电器",
+    "立式"
+   ],
+   "rewritten": "不用插线放上去就能来电 无线充电器 立式",
+   "top3": [
+    "p135",
+    "p136",
+    "p125"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h09",
+   "query": "开黑的时候想听清脚步声",
+   "type": "难例·纯意图",
+   "rel": [
+    "p125",
+    "p126"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.785,
+   "rel_sim": 0.785,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": 1,
+   "added": [
+    "电竞耳机",
+    "7.1声道"
+   ],
+   "rewritten": "开黑的时候想听清脚步声 电竞耳机 7.1声道",
+   "top3": [
+    "p126",
+    "p125",
+    "p209"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h10",
+   "query": "想让桌面整齐线不乱",
+   "type": "难例·纯意图",
+   "rel": [
+    "p189",
+    "p190"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.751,
+   "rel_sim": 0.077,
+   "r_base": 9,
+   "r_deep": 9,
+   "r_rw": 1,
+   "added": [
+    "数据线收纳",
+    "理线",
+    "魔术贴"
+   ],
+   "rewritten": "想让桌面整齐线不乱 数据线收纳 理线 魔术贴",
+   "top3": [
+    "p203",
+    "p204",
+    "p186"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h11",
+   "query": "半夜起来怕黑又不想开大灯",
+   "type": "难例·纯意图",
+   "rel": [
+    "p145",
+    "p146"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.677,
+   "rel_sim": 0.365,
+   "r_base": 4,
+   "r_deep": 4,
+   "r_rw": 1,
+   "added": [
+    "小夜灯",
+    "感应",
+    "柔光"
+   ],
+   "rewritten": "半夜起来怕黑又不想开大灯 小夜灯 感应 柔光",
+   "top3": [
+    "p119",
+    "p120",
+    "p147"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h12",
+   "query": "显示器下面太暗打字看不清",
+   "type": "难例·纯意图",
+   "rel": [
+    "p149",
+    "p150"
+   ],
+   "cls": "🟠 B·词表改写可救",
+   "top1_sim": 0.579,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": null,
+   "r_rw": 1,
+   "added": [
+    "屏幕挂灯",
+    "非对称光路"
+   ],
+   "rewritten": "显示器下面太暗打字看不清 屏幕挂灯 非对称光路",
+   "top3": [
+    "p139",
+    "p140",
+    "p136"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h13",
+   "query": "上床躺着看东西想有个能夹住的",
+   "type": "难例·纯意图",
+   "rel": [
+    "p147",
+    "p148"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.921,
+   "rel_sim": 0.921,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": 1,
+   "added": [
+    "阅读灯",
+    "夹式"
+   ],
+   "rewritten": "上床躺着看东西想有个能夹住的 阅读灯 夹式",
+   "top3": [
+    "p147",
+    "p148",
+    "p165"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h14",
+   "query": "想买个按起来没声音的怕吵到同事",
+   "type": "难例·纯意图",
+   "rel": [
+    "p151",
+    "p152",
+    "p157",
+    "p158"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.628,
+   "rel_sim": 0.421,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [
+    "睡眠耳机",
+    "侧睡",
+    "降噪"
+   ],
+   "rewritten": "想买个按起来没声音的怕吵到同事 睡眠耳机 侧睡 降噪",
+   "top3": [
+    "p125",
+    "p126",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h15",
+   "query": "想自己换轴体玩DIY",
+   "type": "难例·纯意图",
+   "rel": [
+    "p155",
+    "p156"
+   ],
+   "cls": "🟠 B·词表改写可救",
+   "top1_sim": 0.464,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": null,
+   "r_rw": 1,
+   "added": [
+    "机械键盘",
+    "热插拔",
+    "客制化"
+   ],
+   "rewritten": "想自己换轴体玩DIY 机械键盘 热插拔 客制化",
+   "top3": [
+    "p169",
+    "p180",
+    "p179"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h16",
+   "query": "接在电脑上想多插几个设备",
+   "type": "难例·纯意图",
+   "rel": [
+    "p169",
+    "p170"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.499,
+   "rel_sim": 0.411,
+   "r_base": 8,
+   "r_deep": 8,
+   "r_rw": 1,
+   "added": [
+    "扩展坞",
+    "USB3.0",
+    "多口"
+   ],
+   "rewritten": "接在电脑上想多插几个设备 扩展坞 USB3.0 多口",
+   "top3": [
+    "p173",
+    "p174",
+    "p172"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h17",
+   "query": "怕水洒了把电脑弄坏",
+   "type": "难例·纯意图",
+   "rel": [
+    "p173",
+    "p174"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.605,
+   "rel_sim": 0.464,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": 1,
+   "added": [
+    "键盘膜",
+    "防水",
+    "防尘"
+   ],
+   "rewritten": "怕水洒了把电脑弄坏 键盘膜 防水 防尘",
+   "top3": [
+    "p167",
+    "p168",
+    "p173"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h18",
+   "query": "想画图做设计写写画画",
+   "type": "难例·纯意图",
+   "rel": [
+    "p161",
+    "p162"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.865,
+   "rel_sim": 0.865,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": 1,
+   "added": [
+    "手写板",
+    "绘图"
+   ],
+   "rewritten": "想画图做设计写写画画 手写板 绘图",
+   "top3": [
+    "p161",
+    "p162",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h19",
+   "query": "桌上东西太多想分格放",
+   "type": "难例·纯意图",
+   "rel": [
+    "p185",
+    "p186"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.773,
+   "rel_sim": 0.773,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": 1,
+   "added": [
+    "桌面收纳盒",
+    "多格"
+   ],
+   "rewritten": "桌上东西太多想分格放 桌面收纳盒 多格",
+   "top3": [
+    "p186",
+    "p185",
+    "p192"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h20",
+   "query": "换季衣服被子没地方塞",
+   "type": "难例·纯意图",
+   "rel": [
+    "p187",
+    "p188"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.463,
+   "rel_sim": 0.443,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": 1,
+   "added": [
+    "衣柜收纳箱",
+    "折叠",
+    "大容量"
+   ],
+   "rewritten": "换季衣服被子没地方塞 衣柜收纳箱 折叠 大容量",
+   "top3": [
+    "p161",
+    "p162",
+    "p187"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h21",
+   "query": "假期出门箱子太乱",
+   "type": "难例·纯意图",
+   "rel": [
+    "p191",
+    "p192"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.641,
+   "rel_sim": 0.382,
+   "r_base": 7,
+   "r_deep": 7,
+   "r_rw": 1,
+   "added": [
+    "行李箱收纳袋",
+    "旅行"
+   ],
+   "rewritten": "假期出门箱子太乱 行李箱收纳袋 旅行",
+   "top3": [
+    "p161",
+    "p162",
+    "p187"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h22",
+   "query": "早上赶时间想一边热面包一边煎蛋",
+   "type": "难例·纯意图",
+   "rel": [
+    "p181",
+    "p182"
+   ],
+   "cls": "🟠 B·词表改写可救",
+   "top1_sim": 0.656,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": null,
+   "r_rw": 1,
+   "added": [
+    "早餐机",
+    "三明治"
+   ],
+   "rewritten": "早上赶时间想一边热面包一边煎蛋 早餐机 三明治",
+   "top3": [
+    "p180",
+    "p179",
+    "p167"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h23",
+   "query": "早上想煮个蛋不用看着火",
+   "type": "难例·纯意图",
+   "rel": [
+    "p179",
+    "p180"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.862,
+   "rel_sim": 0.862,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": 1,
+   "added": [
+    "煮蛋器",
+    "自动断电"
+   ],
+   "rewritten": "早上想煮个蛋不用看着火 煮蛋器 自动断电",
+   "top3": [
+    "p180",
+    "p179",
+    "p102"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h24",
+   "query": "不想吃油炸的又想吃薯条",
+   "type": "难例·纯意图",
+   "rel": [
+    "p183",
+    "p184"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.917,
+   "rel_sim": 0.917,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": 1,
+   "added": [
+    "空气炸锅",
+    "可视化"
+   ],
+   "rewritten": "不想吃油炸的又想吃薯条 空气炸锅 可视化",
+   "top3": [
+    "p183",
+    "p184",
+    "p166"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h25",
+   "query": "宿舍不让用明火想喝热水",
+   "type": "难例·纯意图",
+   "rel": [
+    "p177",
+    "p178"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.765,
+   "rel_sim": 0.109,
+   "r_base": null,
+   "r_deep": 11,
+   "r_rw": 3,
+   "added": [
+    "保温杯",
+    "316不锈钢",
+    "电热水壶",
+    "快速烧水"
+   ],
+   "rewritten": "宿舍不让用明火想喝热水 保温杯 316不锈钢 电热水壶 快速烧水",
+   "top3": [
+    "p141",
+    "p142",
+    "p104"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h26",
+   "query": "想喝鲜榨的橙汁带去公司",
+   "type": "难例·纯意图",
+   "rel": [
+    "p175",
+    "p176"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.804,
+   "rel_sim": 0.804,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": 1,
+   "added": [
+    "榨汁杯",
+    "迷你",
+    "无线"
+   ],
+   "rewritten": "想喝鲜榨的橙汁带去公司 榨汁杯 迷你 无线",
+   "top3": [
+    "p175",
+    "p176",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h27",
+   "query": "冬天带水出门到公司还是热的",
+   "type": "难例·纯意图",
+   "rel": [
+    "p193",
+    "p194"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.424,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": 28,
+   "r_rw": 1,
+   "added": [
+    "保温杯",
+    "316不锈钢"
+   ],
+   "rewritten": "冬天带水出门到公司还是热的 保温杯 316不锈钢",
+   "top3": [
+    "p157",
+    "p158",
+    "p197"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h28",
+   "query": "宿舍晚上喝饮料不容易洒",
+   "type": "难例·纯意图",
+   "rel": [
+    "p195",
+    "p196"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.673,
+   "rel_sim": 0.143,
+   "r_base": null,
+   "r_deep": 11,
+   "r_rw": 1,
+   "added": [
+    "吸管杯",
+    "大容量"
+   ],
+   "rewritten": "宿舍晚上喝饮料不容易洒 吸管杯 大容量",
+   "top3": [
+    "p141",
+    "p142",
+    "p104"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h29",
+   "query": "夏天想喝冰的看得到里面",
+   "type": "难例·纯意图",
+   "rel": [
+    "p199",
+    "p200"
+   ],
+   "cls": "🟠 B·词表改写可救",
+   "top1_sim": 0.502,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": null,
+   "r_rw": 1,
+   "added": [
+    "玻璃水杯",
+    "双层",
+    "耐热"
+   ],
+   "rewritten": "夏天想喝冰的看得到里面 玻璃水杯 双层 耐热",
+   "top3": [
+    "p192",
+    "p185",
+    "p165"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h30",
+   "query": "野餐的时候想放点音乐",
+   "type": "难例·纯意图",
+   "rel": [
+    "p201",
+    "p202"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.618,
+   "rel_sim": 0.414,
+   "r_base": 5,
+   "r_deep": 5,
+   "r_rw": 1,
+   "added": [
+    "蓝牙音箱",
+    "便携",
+    "防水"
+   ],
+   "rewritten": "野餐的时候想放点音乐 蓝牙音箱 便携 防水",
+   "top3": [
+    "p182",
+    "p181",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h31",
+   "query": "举着看剧手酸想找个能撑着的",
+   "type": "难例·纯意图",
+   "rel": [
+    "p203",
+    "p204"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.581,
+   "rel_sim": 0.535,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": 1,
+   "added": [
+    "手机支架",
+    "桌面",
+    "折叠"
+   ],
+   "rewritten": "举着看剧手酸想找个能撑着的 手机支架 桌面 折叠",
+   "top3": [
+    "p161",
+    "p162",
+    "p203"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h32",
+   "query": "想知道自己睡得好不好走了多少步",
+   "type": "难例·纯意图",
+   "rel": [
+    "p205",
+    "p206"
+   ],
+   "cls": "🟠 B·词表改写可救",
+   "top1_sim": 0.617,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": null,
+   "r_rw": 1,
+   "added": [
+    "智能手环",
+    "心率",
+    "血氧"
+   ],
+   "rewritten": "想知道自己睡得好不好走了多少步 智能手环 心率 血氧",
+   "top3": [
+    "p126",
+    "p125",
+    "p180"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h33",
+   "query": "手机插耳机想让音质好一些",
+   "type": "难例·纯意图",
+   "rel": [
+    "p207",
+    "p208"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.508,
+   "rel_sim": 0.063,
+   "r_base": null,
+   "r_deep": 27,
+   "r_rw": 1,
+   "added": [
+    "耳放解码线",
+    "高解析"
+   ],
+   "rewritten": "手机插耳机想让音质好一些 耳放解码线 高解析",
+   "top3": [
+    "p128",
+    "p124",
+    "p127"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "h34",
+   "query": "想直播拍视频要稳",
+   "type": "难例·纯意图",
+   "rel": [
+    "p209",
+    "p210"
+   ],
+   "cls": "🟠 B·词表改写可救",
+   "top1_sim": 0.917,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": null,
+   "r_rw": 1,
+   "added": [
+    "摄像机支架",
+    "三脚架",
+    "云台"
+   ],
+   "rewritten": "想直播拍视频要稳 摄像机支架 三脚架 云台",
+   "top3": [
+    "p183",
+    "p184",
+    "p166"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  }
+ ],
+ "20 条泛化集（新说法）": [
+  {
+   "qid": "n01",
+   "query": "室友睡着了，我用耳机听歌怕打扰到他",
+   "type": "难例·新说法",
+   "rel": [
+    "p127",
+    "p128"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.54,
+   "rel_sim": 0.54,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p128",
+    "p124",
+    "p127"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "n02",
+   "query": "想边跑步边听歌，晃来晃去也不掉",
+   "type": "难例·新说法",
+   "rel": [
+    "p123",
+    "p124"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.573,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": 20,
+   "r_rw": 1,
+   "added": [
+    "骨传导",
+    "运动",
+    "防水"
+   ],
+   "rewritten": "想边跑步边听歌，晃来晃去也不掉 骨传导 运动 防水",
+   "top3": [
+    "p127",
+    "p126",
+    "p117"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "n03",
+   "query": "经常在外面手机电量撑不到晚上",
+   "type": "难例·新说法",
+   "rel": [
+    "p131",
+    "p132"
+   ],
+   "cls": "🔴 C·现有手段覆盖不到",
+   "top1_sim": 0.76,
+   "rel_sim": 0.055,
+   "r_base": null,
+   "r_deep": null,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p203",
+    "p204",
+    "p161"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": false,
+    "6-全栈(上线版)": false
+   },
+   "any_strategy": false
+  },
+  {
+   "qid": "n04",
+   "query": "酒店房间里能插电的孔太少了",
+   "type": "难例·新说法",
+   "rel": [
+    "p133",
+    "p134"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.85,
+   "rel_sim": 0.04,
+   "r_base": null,
+   "r_deep": 38,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p146",
+    "p145",
+    "p156"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": false,
+    "6-全栈(上线版)": false
+   },
+   "any_strategy": false
+  },
+  {
+   "qid": "n05",
+   "query": "桌子上的线总是绞成一团",
+   "type": "难例·新说法",
+   "rel": [
+    "p189",
+    "p190"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.579,
+   "rel_sim": 0.178,
+   "r_base": 9,
+   "r_deep": 9,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p161",
+    "p162",
+    "p203"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": false,
+    "6-全栈(上线版)": false
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "n06",
+   "query": "晚上用电脑，键盘那一片黑乎乎看不清",
+   "type": "难例·新说法",
+   "rel": [
+    "p149",
+    "p150"
+   ],
+   "cls": "🔴 C·现有手段覆盖不到",
+   "top1_sim": 0.643,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": null,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p173",
+    "p174",
+    "p157"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": false,
+    "6-全栈(上线版)": false
+   },
+   "any_strategy": false
+  },
+  {
+   "qid": "n07",
+   "query": "想给键盘换轴，自己折腾一下",
+   "type": "难例·新说法",
+   "rel": [
+    "p155",
+    "p156"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.688,
+   "rel_sim": 0.39,
+   "r_base": 5,
+   "r_deep": 5,
+   "r_rw": 1,
+   "added": [
+    "机械键盘",
+    "热插拔",
+    "客制化"
+   ],
+   "rewritten": "想给键盘换轴，自己折腾一下 机械键盘 热插拔 客制化",
+   "top3": [
+    "p157",
+    "p158",
+    "p173"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "n08",
+   "query": "电脑上的口不够我插",
+   "type": "难例·新说法",
+   "rel": [
+    "p169",
+    "p170"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.604,
+   "rel_sim": 0.604,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p170",
+    "p169",
+    "p173"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "n09",
+   "query": "一不留神饮料打翻在电脑上",
+   "type": "难例·新说法",
+   "rel": [
+    "p173",
+    "p174"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.56,
+   "rel_sim": 0.56,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p173",
+    "p174",
+    "p172"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": false,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "n10",
+   "query": "想给自己做顿热乎早饭，时间又紧",
+   "type": "难例·新说法",
+   "rel": [
+    "p181",
+    "p182"
+   ],
+   "cls": "🟠 B·词表改写可救",
+   "top1_sim": 0.664,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": null,
+   "r_rw": 1,
+   "added": [
+    "早餐机",
+    "三明治"
+   ],
+   "rewritten": "想给自己做顿热乎早饭，时间又紧 早餐机 三明治",
+   "top3": [
+    "p180",
+    "p179",
+    "p107"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "n11",
+   "query": "天冷了，想带热水出门",
+   "type": "难例·新说法",
+   "rel": [
+    "p193",
+    "p194"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.468,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": 22,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p124",
+    "p123",
+    "p200"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": false,
+    "6-全栈(上线版)": false
+   },
+   "any_strategy": false
+  },
+  {
+   "qid": "n12",
+   "query": "想喝冰饮，还想看见杯子里的东西",
+   "type": "难例·新说法",
+   "rel": [
+    "p199",
+    "p200"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.675,
+   "rel_sim": 0.347,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p161",
+    "p162",
+    "p200"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": false,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "n13",
+   "query": "想记录自己每天的睡眠和运动量",
+   "type": "难例·新说法",
+   "rel": [
+    "p205",
+    "p206"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.649,
+   "rel_sim": 0.558,
+   "r_base": 3,
+   "r_deep": 3,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p124",
+    "p123",
+    "p206"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "n14",
+   "query": "耳机孔听歌不好听，想提升一下",
+   "type": "难例·新说法",
+   "rel": [
+    "p207",
+    "p208"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.54,
+   "rel_sim": 0.105,
+   "r_base": null,
+   "r_deep": 15,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p128",
+    "p124",
+    "p127"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": false,
+    "6-全栈(上线版)": false
+   },
+   "any_strategy": false
+  },
+  {
+   "qid": "n15",
+   "query": "自己录视频想固定住，画面别晃",
+   "type": "难例·新说法",
+   "rel": [
+    "p209",
+    "p210"
+   ],
+   "cls": "🔴 C·现有手段覆盖不到",
+   "top1_sim": 0.679,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": null,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p180",
+    "p183",
+    "p184"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": false,
+    "6-全栈(上线版)": false
+   },
+   "any_strategy": false
+  },
+  {
+   "qid": "n16",
+   "query": "桌子乱死了，东西想分开摆",
+   "type": "难例·新说法",
+   "rel": [
+    "p185",
+    "p186"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.561,
+   "rel_sim": 0.387,
+   "r_base": 7,
+   "r_deep": 7,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p161",
+    "p162",
+    "p192"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "n17",
+   "query": "想戴在手上看看一天走几步",
+   "type": "难例·新说法",
+   "rel": [
+    "p205",
+    "p206"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.412,
+   "rel_sim": 0.272,
+   "r_base": 10,
+   "r_deep": 10,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p127",
+    "p122",
+    "p121"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "n18",
+   "query": "睡前想看点东西，又不想开大灯吵醒家人",
+   "type": "难例·新说法",
+   "rel": [
+    "p145",
+    "p146"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.552,
+   "rel_sim": 0.551,
+   "r_base": 2,
+   "r_deep": 2,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p147",
+    "p146",
+    "p148"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  },
+  {
+   "qid": "n19",
+   "query": "打游戏想听清敌人在哪",
+   "type": "难例·新说法",
+   "rel": [
+    "p125",
+    "p126"
+   ],
+   "cls": "🟡 A·只差召回深度",
+   "top1_sim": 0.0,
+   "rel_sim": 0.0,
+   "r_base": null,
+   "r_deep": 25,
+   "r_rw": null,
+   "added": [],
+   "rewritten": "",
+   "top3": [
+    "p101",
+    "p102",
+    "p103"
+   ],
+   "hits": {
+    "1-纯关键词": false,
+    "2-BM25+同义词": false,
+    "3-混合RRF": false,
+    "4-向量(LSA)": false,
+    "5-词表改写+BM25": false,
+    "6-全栈(上线版)": false
+   },
+   "any_strategy": false
+  },
+  {
+   "qid": "n20",
+   "query": "笔记本烤腿，想垫起来散散热",
+   "type": "难例·新说法",
+   "rel": [
+    "p163",
+    "p164",
+    "p165",
+    "p166"
+   ],
+   "cls": "✅ 命中",
+   "top1_sim": 0.715,
+   "rel_sim": 0.715,
+   "r_base": 1,
+   "r_deep": 1,
+   "r_rw": 1,
+   "added": [
+    "支架",
+    "散热",
+    "增高架"
+   ],
+   "rewritten": "笔记本烤腿，想垫起来散散热 支架 散热 增高架",
+   "top3": [
+    "p165",
+    "p166",
+    "p164"
+   ],
+   "hits": {
+    "1-纯关键词": true,
+    "2-BM25+同义词": true,
+    "3-混合RRF": true,
+    "4-向量(LSA)": true,
+    "5-词表改写+BM25": true,
+    "6-全栈(上线版)": true
+   },
+   "any_strategy": true
+  }
+ ]
+}

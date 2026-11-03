@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# 逐条明细（体积大，可由 evaluate.py 重新生成）
+reports/detail.json
+reports/paraphrase_detail.json
